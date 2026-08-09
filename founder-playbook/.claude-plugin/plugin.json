@@ -1,0 +1,16 @@
+{
+  "name": "founder-playbook",
+  "version": "1.0.0",
+  "description": "Idea-stage validation copilot built on The Founder's Playbook: Building an AI-Native Startup (Anthropic, 2026). Turns a raw idea into a testable hypothesis, red-teams it, runs market/competitive research, designs and synthesizes customer discovery, and gates the build decision on graded evidence. Coach mode and auto mode. Works in Persian and English.",
+  "author": {
+    "name": "Parsa"
+  },
+  "keywords": [
+    "startup",
+    "idea validation",
+    "problem-solution fit",
+    "customer discovery",
+    "hypothesis testing",
+    "founder"
+  ]
+}

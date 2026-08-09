@@ -1,0 +1,14 @@
+{
+  "name": "idea-validator",
+  "description": "Idea-stage validation for Claude Code — built on The Founder's Playbook (Anthropic, 2026)",
+  "owner": {
+    "name": "Parsa"
+  },
+  "plugins": [
+    {
+      "name": "founder-playbook",
+      "source": "./founder-playbook",
+      "description": "Turns a raw startup idea into a testable hypothesis, red-teams it, researches the market and competition, designs and synthesizes customer discovery, and gates the build decision on graded evidence. Coach and auto modes."
+    }
+  ]
+}
