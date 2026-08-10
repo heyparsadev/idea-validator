@@ -23,15 +23,24 @@ An Idea-stage validation plugin for Claude Code, implementing Chapter 3 of Anthr
 از داخل Claude Code / From inside Claude Code:
 
 ```
-/plugin marketplace add https://github.com/heyparsadev/idea-validator.git
-/plugin install founder-playbook@idea-validator
+/plugin marketplace add https://github.com/heyparsadev/claude-plugins.git
+/plugin install founder-playbook@parsa-plugins
 ```
 
 یا با CLI / Or via the CLI:
 
 ```bash
-claude plugin marketplace add https://github.com/heyparsadev/idea-validator.git
-claude plugin install founder-playbook@idea-validator
+claude plugin marketplace add https://github.com/heyparsadev/claude-plugins.git
+claude plugin install founder-playbook@parsa-plugins
+```
+
+مارکت‌پلیس [claude-plugins](https://github.com/heyparsadev/claude-plugins) پلاگین‌های دیگر را هم دارد. اگر فقط همین یکی را می‌خواهی، از این ریپو مستقیم هم نصب می‌شود:
+
+The [claude-plugins](https://github.com/heyparsadev/claude-plugins) marketplace carries the other plugins too. To install this one alone, use this repo directly:
+
+```
+/plugin marketplace add https://github.com/heyparsadev/idea-validator.git
+/plugin install founder-playbook@idea-validator
 ```
 
 > 💡 از URL کامل `https://...git` استفاده کن (نه `owner/repo`) تا clone از HTTPS انجام شه و به SSH key نیاز نباشه.
@@ -136,7 +145,7 @@ ventures/<slug>/00-idea-stage/
 └── DECISION.md       ← گیت خروج + حکم + لاگ تصمیم
 ```
 
-با پلاگین [venture](https://github.com/heyparsadev/claude-venture-plugin) interop داره: اگه `ventures/<slug>/VENTURE.md` موجود باشه ازش استفاده می‌کنه، وگرنه یه نسخهٔ مینیمال می‌سازه. پوشه‌ها جدان، پس تداخلی نیست.
+با پلاگین [venture](https://github.com/heyparsadev/claude-plugins/tree/main/venture) interop داره: اگه `ventures/<slug>/VENTURE.md` موجود باشه ازش استفاده می‌کنه، وگرنه یه نسخهٔ مینیمال می‌سازه. پوشه‌ها جدان، پس تداخلی نیست.
 
 ---
 

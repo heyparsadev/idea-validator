@@ -52,7 +52,7 @@ Also enforced: kill criteria written *before* research starts · the case agains
 
 ## Workspace
 
-Interoperates with the [venture](https://github.com/heyparsadev/claude-venture-plugin) plugin. If `ventures/<slug>/VENTURE.md` exists it's reused; otherwise a minimal one is created.
+Interoperates with the [venture](https://github.com/heyparsadev/claude-plugins/tree/main/venture) plugin. If `ventures/<slug>/VENTURE.md` exists it's reused; otherwise a minimal one is created.
 
 ```
 ventures/<slug>/00-idea-stage/
@@ -66,8 +66,8 @@ ventures/<slug>/00-idea-stage/
 ## Install
 
 ```bash
-/plugin marketplace add https://github.com/heyparsadev/idea-validator.git
-/plugin install founder-playbook@idea-validator
+/plugin marketplace add https://github.com/heyparsadev/claude-plugins.git
+/plugin install founder-playbook@parsa-plugins
 ```
 
 ## Coverage
