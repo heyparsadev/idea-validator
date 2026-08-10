@@ -145,7 +145,7 @@ ventures/<slug>/00-idea-stage/
 └── DECISION.md       ← گیت خروج + حکم + لاگ تصمیم
 ```
 
-با پلاگین [venture](https://github.com/heyparsadev/claude-plugins/tree/main/venture) interop داره: اگه `ventures/<slug>/VENTURE.md` موجود باشه ازش استفاده می‌کنه، وگرنه یه نسخهٔ مینیمال می‌سازه. پوشه‌ها جدان، پس تداخلی نیست.
+با پلاگین [venture](https://github.com/heyparsadev/claude-venture-plugin) interop داره: اگه `ventures/<slug>/VENTURE.md` موجود باشه ازش استفاده می‌کنه، وگرنه یه نسخهٔ مینیمال می‌سازه. پوشه‌ها جدان، پس تداخلی نیست.
 
 ---
 
