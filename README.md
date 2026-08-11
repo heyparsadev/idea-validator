@@ -1,4 +1,4 @@
-# idea-validator
+# claude-idea-validator
 
 **اعتبارسنجی ایدهٔ استارتاپی برای Claude Code** — پیاده‌سازی فصل ۳ کتاب *The Founder's Playbook: Building an AI-Native Startup* (Anthropic, 2026).
 
@@ -39,7 +39,7 @@ claude plugin install founder-playbook@parsa-plugins
 The [claude-plugins](https://github.com/heyparsadev/claude-plugins) marketplace carries the other plugins too. To install this one alone, use this repo directly:
 
 ```
-/plugin marketplace add https://github.com/heyparsadev/idea-validator.git
+/plugin marketplace add https://github.com/heyparsadev/claude-idea-validator.git
 /plugin install founder-playbook@idea-validator
 ```
 
